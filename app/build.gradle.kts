@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.image_detector"
+    namespace = "com.example.techlab"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.image_detector"
+        applicationId = "com.example.techlab"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
