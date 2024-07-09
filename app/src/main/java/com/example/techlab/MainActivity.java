@@ -1,4 +1,4 @@
-package com.example.image_detector;
+package com.example.techlab;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,7 +25,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.example.techlab.R;
 import com.example.techlab.ml.Model;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

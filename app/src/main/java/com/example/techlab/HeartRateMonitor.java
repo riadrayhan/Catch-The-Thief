@@ -1,4 +1,4 @@
-package com.example.image_detector;
+package com.example.techlab;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -15,8 +15,6 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.TextView;
-
-import com.example.techlab.R;
 
 public class HeartRateMonitor extends Activity {
 

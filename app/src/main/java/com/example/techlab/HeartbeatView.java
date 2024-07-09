@@ -1,4 +1,4 @@
-package com.example.image_detector;
+package com.example.techlab;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,8 +8,6 @@ import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
-
-import com.example.techlab.R;
 
 
 public class HeartbeatView extends View {

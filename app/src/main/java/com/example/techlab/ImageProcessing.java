@@ -1,4 +1,4 @@
-package com.example.image_detector;
+package com.example.techlab;
 
 public abstract class ImageProcessing {
 
