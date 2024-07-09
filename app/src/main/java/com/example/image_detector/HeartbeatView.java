@@ -9,6 +9,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.example.techlab.R;
+
 
 public class HeartbeatView extends View {
 

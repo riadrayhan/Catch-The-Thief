@@ -16,6 +16,8 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.techlab.R;
+
 public class HeartRateMonitor extends Activity {
 
     private static final String TAG = "HeartRateMonitor";

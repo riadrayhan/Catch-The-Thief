@@ -24,15 +24,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.image_detector.ml.Detect;
+
+import com.example.techlab.R;
+import com.example.techlab.ml.Model;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.example.image_detector.ml.Model;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
 import java.io.IOException;
-import java.net.URI;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
