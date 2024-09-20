@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacy_policy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:text="           Privacy Policy
+\n\nAt Skin Scanner App are dedicated to keeping your information private. This App uses photos from your device's gallery or camera to identify skin conditions like mpox. We process these photos locally on your device using TensorFlow Lite and other machine learning models. Crucially, neither personal data nor photos are gathered, saved, or shared by our app.\n\n
+
+No data is sent to external servers; all image analysis is done right on your device. Your photos stay private, and the software doesn't keep them when the analysis is finished. When you use the app, we don't get any information about who you are, your location, or any other personal information.\n\n
+
+By using this app, you recognize and agree that we will not collect or retain any personal information or photos.Its totally free app and it does not contains any harmfull content. We prioritize user privacy and created the app to provide you complete control over your data. If you have any problems or questions regarding this privacy policy, please contact us at [Contact Information].\n\n"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>

@@ -3,11 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.techlab"
+
+
+    namespace = "com.skin.skinscanner"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.techlab"
+        applicationId = "com.skin.skinscanner"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -33,6 +35,7 @@ android {
         mlModelBinding = true
         mlModelBinding
     }
+
 }
 
 
@@ -42,6 +45,7 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.activity:activity:1.8.0")
+    implementation("androidx.compose.ui:ui-tooling-preview-android:1.6.8")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -55,5 +59,8 @@ dependencies {
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     implementation ("com.google.guava:guava:31.1-jre")
+
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.17")
+    implementation ("com.github.rosenpin:fading-text-view:3.3")
 
 }

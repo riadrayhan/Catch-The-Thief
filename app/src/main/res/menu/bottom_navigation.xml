@@ -5,9 +5,9 @@
         android:icon="@drawable/home"
         android:title="Home"/>
     <item
-        android:id="@+id/nav_detect"
+        android:id="@+id/nav_skin"
         android:icon="@drawable/heart"
-        android:title="Heart Rate"/>
+        android:title="Skin"/>
     <item
         android:id="@+id/map"
         android:icon="@drawable/map"

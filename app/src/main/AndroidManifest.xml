@@ -27,10 +27,22 @@
         android:theme="@style/Theme.Image_detector"
         tools:targetApi="31">
         <activity
-            android:name=".Doctor"
+            android:name=".Privacy_policy"
             android:exported="false" />
         <activity
-            android:name=".HeartRateMonitor"
+            android:name=".About_App"
+            android:exported="false" />
+        <activity
+            android:name=".About_Mpox"
+            android:exported="false" />
+        <activity
+            android:name=".SkinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".About_Mpox">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:text="\n Mpox, previously called monkeypox is a disease caused by the virus of this species but subject to arrest as they are from orthopoxvirus family. How does it spread- It is commonly transmitted by close contact with infected animals or humans, and ill equipment/material e.g. bedding, clothing etc [2] It was first identified in monkeys in 1958, with the initial case found in humans recorded just two years later.\n\n
+
+Common symptoms of MPox include fever, headache, muscle aches and pains, swollen lymph nodes (swelling in the neck), plus change to skin like flat spots that later become small fluid-filled blisters. These sores ultimately blemish and are lost. The illness usually lasts 2–4 weeks. Although most cases are mild, severe illnesses can occur and may require hospitalization in certain groups of people with weakened immune systems.\n\n Prevention involves avoiding contact with infected individuals or animals, and vaccination can provide protection in high-risk areas. Early detection and isolation are important to prevent the spread of mpox, as the virus can be contagious during the rash phase."
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
